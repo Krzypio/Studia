@@ -38,7 +38,7 @@ int main()
     }//while
 
     //Wyswietl odwrotna tablice
-        printf("\nOdwrtotna tablica wprowadzonych wartosci: \n");
+    printf("\nOdwrtotna tablica wprowadzonych wartosci: \n");
     int i=licznik;
     for(i; i>0; i--){
         //wyswietlanie przecinka
@@ -63,7 +63,7 @@ int poprawnie_wczytaj_liczbe(){
         if (0 == poprawnosc) {
             printf("\tInput is not an integer!\n");
         }
-        fflush(stdin);  //wyczyœæ bufor wejœcia
+        fflush(stdin);  //wyczysc bufor wejœcia
     }//while
     return bufor;
 }//poprawnie_wczytaj_liczbe
